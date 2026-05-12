@@ -1,1 +1,4 @@
-Hello worlds
+flask
+flask_sqlalchemy
+flask_login
+psycopg2

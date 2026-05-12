@@ -1,0 +1,1 @@
+console.log('VPN Gateway Admin Panel Started');

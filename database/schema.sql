@@ -1,0 +1,11 @@
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(100) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE logs (
+    id SERIAL PRIMARY KEY,
+    event TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
